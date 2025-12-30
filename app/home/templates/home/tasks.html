@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+{% block start %}
+    <body>
+        <div class="container">
+            <button>
+                <a href="/">&#8592; Back to Home</a>
+            </button>
+        </div>
+        <table class="container mt-4" style='text-align: center'>
+            <tr>
+                <th>Sl. No.</th>
+                <th>Task name</th>
+                <th>Task description</th>
+                <th>Task time</th>
+                <th>Task status</th>
+            </tr>
+            {% for task in task_chart %}
+            <tr>
+                <td>{{forloop.counter}}</td>
+                <td>{{task.task_name}}</td>
+                <td>{{task.task_description}}</td>
+                <td>{{task.task_time}}</td>
+                <td {% if task.task_status == "Done" %} style="background: green" {% else %} style="background: red" {% endif %}>       <!-- include space around "==" -->
+                    {{task.task_status}}
+                </td>
+            </tr>
+            {% endfor %}
+        </table>
+    </body>
+{% endblock %}

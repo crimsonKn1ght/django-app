@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block start %}
+    <body>
+        <div class="container mt-4" style="text-align: center">
+            <h4>
+                In this app, you can create to-do lists. Click the below button to start creating tasks:
+            </h4>
+        </div>
+        <div class="container mt-5" style="text-align: center">
+            <img src="{% static 'time-bunny.jpg' %}" alt={{alt_desc}} width='250' height="250" style="border-radius: 50%" />
+        </div>
+        <div class="container mt-3" style="text-align: center">
+            “There is nothing noble in being superior to your fellow man; true nobility is being superior to your former self.”
+            <br />
+            <div style="text-align: right">
+                <b>- Ernest Hemingway</b>
+            </div>
+        </div>
+        <div class="container mt-5" style="text-align: center">
+            <button>
+                <a href="/tasks">
+                    Create Tasks!
+                </a>
+            </button>
+        </div>
+    </body>
+
+{% endblock %}
+</html>
