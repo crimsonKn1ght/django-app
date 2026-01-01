@@ -62,4 +62,4 @@ Add tasks with their status via the form. Visit the app back at any time and che
 - *Immediate needs to be implement: Tasks deletion and updation system.*
 - *Distant plans: Integrate Django with React for smoother UI and UX*
 
-### Like what you see? Star this repo to keep track ⭐
+### Like what you see? ⭐ this repo to keep track.
