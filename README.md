@@ -1,7 +1,11 @@
-# Django-app
+# Django To-Do App
+
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg?style=flat)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg?style=flat)](requirements.txt)
+[![Django](https://img.shields.io/badge/Django-framework-092e20.svg?style=flat)](requirements.txt)
 
 ## About
-To-do list app implemented in django framework.
+To-do list app implemented in the Django framework.
 
 ## Get started:
 
@@ -25,7 +29,7 @@ Windows:
 
 Linux:
 
-`source env_name/Scripts/activate`
+`source env_name/bin/activate`
 
 ## Install requirements:
 
@@ -41,7 +45,7 @@ Migrate any changes using:
 
 `python manage.py migrate`
 
-Now, lets start the server:
+Now start the server:
 
 `python manage.py runserver`
 
@@ -59,7 +63,7 @@ Add tasks with their status via the form. Visit the app back at any time and che
 
 ## Plans
 
-- *Immediate needs to be implement: Tasks deletion and updation system.*
-- *Distant plans: Integrate Django with React for smoother UI and UX*
+- *Next up: task deletion and editing.*
+- *Later: a React frontend in place of the Django templates.*
 
 ### Like what you see? ⭐ this repo to keep track.
